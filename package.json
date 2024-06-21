@@ -1,0 +1,24 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Dİscord bot for candor studios",
+  "main": "index.js",
+  "nodemonConfig": {
+    "ignore": [
+      "database.json"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "npm.db": "^2.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
